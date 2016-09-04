@@ -172,3 +172,7 @@ service calibacc /system/bin/accelcal
 
 on property:sys.sensors.acc=*
     start calibacc
+
+on property:sys.boot_completed=1
+    # Temp hack to fix torch not being registered on boot
+    restart media
