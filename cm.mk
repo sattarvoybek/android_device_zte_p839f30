@@ -12,27 +12,27 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/ark/peach/full_peach.mk)
+$(call inherit-product, device/zte/p839f30/full_peach.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 #Assert
-TARGET_OTA_ASSERT_DEVICE := peach,benefit,ark_benefit_a3,benefit_a3,a3,ark
+TARGET_OTA_ASSERT_DEVICE := p839f30
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
-PRODUCT_NAME := cm_peach
-BOARD_VENDOR := ark
-PRODUCT_DEVICE := peach
+PRODUCT_NAME := cm_p839f30
+BOARD_VENDOR := zte
+PRODUCT_DEVICE := p839f30
 
-PRODUCT_GMS_CLIENTID_BASE := android-elephone
+PRODUCT_GMS_CLIENTID_BASE := android-zte
 
-PRODUCT_MANUFACTURER := ARK
-PRODUCT_MODEL := Benefit A3
+PRODUCT_MANUFACTURER := ZTE
+PRODUCT_MODEL := Blade S6
 
-PRODUCT_BRAND := ARK
-TARGET_VENDOR := ark
-TARGET_VENDOR_PRODUCT_NAME := peach
-TARGET_VENDOR_DEVICE_NAME := peach
+PRODUCT_BRAND := ZTE
+TARGET_VENDOR := zte
+TARGET_VENDOR_PRODUCT_NAME := p839f30
+TARGET_VENDOR_DEVICE_NAME := p839f30

@@ -1,3 +1,3 @@
 # SELinux
 BOARD_SEPOLICY_DIRS += \
-    device/ark/peach/sepolicy
+    device/zte/p839f30/sepolicy

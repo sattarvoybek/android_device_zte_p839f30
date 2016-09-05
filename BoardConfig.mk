@@ -17,9 +17,9 @@ FORCE_32_BIT := true
 
 -include device/cyanogen/msm8916-common/BoardConfigCommon.mk
 
-include device/ark/peach/board/*.mk
+include device/zte/p839f30/board/*.mk
 
-TARGET_BOARD_INFO_FILE := device/ark/peach/board-info.txt
+TARGET_BOARD_INFO_FILE := device/zte/p839f30/board-info.txt
 
 # inherit from the proprietary version
--include vendor/ark/peach/BoardConfigVendor.mk
+-include vendor/zte/p839f30/BoardConfigVendor.mk

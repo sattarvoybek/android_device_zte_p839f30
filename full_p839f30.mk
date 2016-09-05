@@ -18,15 +18,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from seed device
-$(call inherit-product, device/ark/peach/device.mk)
+$(call inherit-product, device/zte/p839f30/device.mk)
 
 # Locales
 PRODUCT_LOCALES := en_US ru_RU uk_UA
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := peach
-PRODUCT_NAME := full_peach
-PRODUCT_BRAND := ARK
-PRODUCT_MODEL := Benefit A3
-PRODUCT_MANUFACTURER := ark
+PRODUCT_DEVICE := p839f30
+PRODUCT_NAME := full_p839f30
+PRODUCT_BRAND := ZTE
+PRODUCT_MODEL := Blade S6
+PRODUCT_MANUFACTURER := zte
 
